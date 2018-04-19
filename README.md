@@ -23,7 +23,8 @@ We have implemented this Cipher in an Applet. One can build a jar file out of it
 2.	**CipherImplement.java**: containing non-parameterized methods encrypt() and decrypt(), both of which are taking inputs of String through Scanner() method.
 
 •	Structure of the package:
-PBL_TESTING\            -----Base Directory
+Cipher-Dicipher-using-Java\            -----Base Directory
+
 Com->pbl->cipher      -----Package name
 
 •	Two Test Files, namely:
