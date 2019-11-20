@@ -1,5 +1,5 @@
 # Cipher-Dicipher-using-Java
-A brute_force based Cipher-Dicipher written in Java Language with UI/UX
+A brute_force based ( mono-alphabetic Substitution) Cipher-Dicipher written in Java Language with UI/UX
 
 # Objective:
 The main objective of this project is to build a portable program for Encryption and Decryption using Packages.
@@ -15,7 +15,7 @@ We have implemented this Cipher in an Applet. One can build a jar file out of it
 3. MS-DOS
 
 # Key-Note:
--> You can run this application through BASH window (DOS- cmd prompt) or through and APPLETVIEWER.
+-> You can run this application through BASH window (DOS- cmd prompt) or through an APPLET-VIEWER.
 
 # Methodology:
 •	There are two source files kept in the package serving different purposes; namely:
@@ -24,9 +24,10 @@ We have implemented this Cipher in an Applet. One can build a jar file out of it
 
 •	Structure of the package:
 
-Cipher-Dicipher-using-Java\            -----Base Directory
+Cipher-Dicipher-using-Java            -----***Base Directory***
 
-Com->pbl->cipher      -----Package name
+Com->pbl->cipher      -----***Package name***
+
 
 •	Two Test Files, namely:
 1.	 **expack.java**: Implementing the CipherImplement.class file. Program is tested on MS-DOS after compiling and interpreting the source file.
@@ -34,8 +35,14 @@ Com->pbl->cipher      -----Package name
 
 •	This program is capable to encrypt/ decrypt a single word or a complete sentence as per requirement.
 
-•	To run DOS Test file:
+### To run DOS Test file:
 >> **java Testcipher**
 
-•	To run Applet program from DOS (Applet viewer):
+
+![alt txt](https://github.com/Atul-Anand-Jha/Cipher-Decipher-using-Java/blob/master/Documentation/ScreenShots/Screenshot%20(131).png "Command Prompt View")
+
+### To run Applet program from DOS (Applet viewer):
 >> **appletviewer CipherApplet.java**
+
+
+![alt txt](https://github.com/Atul-Anand-Jha/Cipher-Decipher-using-Java/blob/master/Documentation/ScreenShots/Screenshot%20(133).png "Applet View")
